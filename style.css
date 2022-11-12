@@ -171,3 +171,36 @@ body {
 .btn-cancel:hover {
   color: var(--dark-blue);
 }
+@media only screen and (max-width: 576px) {
+  .container {
+    max-width: 33rem;
+  }
+  .content {
+    padding: 3.5rem;
+    gap: 1rem;
+  }
+  .content h3 {
+    font-size: 2rem;
+  }
+  .content p {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  .plan-box .plan-box-left {
+    gap: 1rem;
+  }
+  .plan-box-left div h3,
+  .plan-box-left div p {
+    font-size: 1.3rem;
+  }
+  .plan-box .plan-box-right a {
+    font-size: 1.2rem;
+  }
+  .btn-proceed {
+    padding: 1.5rem 5.5rem;
+    font-size: 1.3rem;
+  }
+  .btn-cancel {
+    font-size: 1.3rem;
+  }
+}
